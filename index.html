@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/overlay.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="border-b sticky">
+        <div class="container flex-center">
+            <div class="panel-flex">
+                <div class="logo"></div>
+                <div class="">
+                    <h3 class="header-titles" style="margin-top: 1rem;">Октябрьский район Оренбургской области</h3>
+                    <span class="span-head">Дашборд по бюджету для граждан. Исполнение 2024</span>
+                </div>
+            </div>
+            <nav class="nav">
+                    <ul>
+                        <li><a href="#">2024</a>
+                            <ul class="sub-menu">
+                                <li><a href="index1.html">2025</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+        </div> 
+    </header>
+    <main>
+        <section class="container section">
+            <div class="panel-flex">
+                <div class="content p-3 m-r">
+                    <p class="text">ДОХОДЫ</p>
+                    <div class="items">
+                        <h4>811 052 537,99</h4>
+                        <p class="text data-title" title="Процент исполнения">100,02%</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-value bg-lab-accent" style="width: 100%;"></div>
+                    </div>
+                    <p class="text">План: 810 886 945,00</p>
+                </div>
+                <div class="content p-3 m-r">
+                    <p class="text">РАСХОДЫ</p>
+                    <div class="items">
+                        <h4>814 881 884,85</h4>
+                        <p class="text data-title" title="Процент исполнения">99,4%</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-value bg-lab-highlight" style="width: 99%;"></div>
+                    </div>
+                    <p class="text">План: 819 509 845,00</p>
+                </div>
+                <div class="content p-3 m-r">
+                    <p class="text">ИСТОЧНИКИ</p>
+                    <div class="items">
+                        <h4>3 829 346,86</h4>
+                        <p class="text data-title" title="Процент исполнения">44,4%</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-value bg-lab-highlight" style="width: 44%;"></div>
+                    </div>
+                    <p class="text">План: 8 622 900,00</p>
+                </div>
+                <div class="content p-3">
+                    <p class="text">ПРОФИЦИТ</p>
+                    <h3>4 793 553,14</h3>
+                </div>
+            </div>
+            
+        </section>
+        <section class="container section">
+            <div class="content">
+                <div class="block-d">
+                    <p class="m-b">ДОХОДЫ БЮДЖЕТА</p>
+                </div>
+                <div class="panel-flex">
+                    <div class="chart-d"></div>
+                    <div>
+                        <p class="" style="text-align: right; font-size: 0.75rem">тыс.руб.</p>
+                        <div class="chart-d2"></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+        <section class="container section">
+            <div class="panel-flex">
+                <div class="content m-r">
+                    <div class="line">
+                        <p class="m-b">ВЕДОМСТВЕННАЯ СТРУКТУРА РАСХОДОВ</p>
+                        <span class="text-xs">тыс.руб.</span>
+                    </div>
+                    
+                    <div class="chart-r"></div>
+                </div>
+                <div class="content">
+                    <div class="line">
+                        <p class="m-b">CТРУКТУРА РАСХОДОВ ПО ПРОГРАММАМ</p>
+                        <span class="text-xs">тыс.руб.</span>
+                    </div>
+                    
+                    <div class="chart-r2"></div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="content map">
+                
+                <div class="maps" id="maps">
+                    <img src="pic/compass.png" class="logo-map">
+                    <svg pointer-events="auto" class="imgSvg" width="750" height="650" viewBox="255 255 1000 186">
+                        <g>
+                            <path id="full" class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M294 548L312 535L295 508L320 489L328 498L353 480L348 472L382 449L362 420L416 382L393 350L482 288L451 249L478 239L474 233L505 211L490 188L492 181L516 169L549 209L569 193L582 211L589 206L592 213L595 212L596 215L598 211L601 210L610 202L610 191L616 187L617 176L634 173L643 187L662 172L654 167L659 159L658 154L667 149L671 104L680 106L690 102L731 73L735 73L743 75L740 100L752 117L768 118L805 108L812 98L816 63L842 72L843 76L847 77L850 85L855 84L859 92L865 95L868 104L871 106L872 109L875 110L876 115L880 115L880 119L886 124L890 121L891 123L879 134L873 149L871 160L866 171L877 175L889 173L898 165L929 149L934 183L918 192L919 207L923 208L937 219L948 220L945 232L897 224L897 231L893 246L905 247L909 250L919 249L930 257L926 278L913 275L909 306L913 309L912 319L941 324L936 325L936 332L938 332L941 328L943 330L941 333L943 335L943 341L938 344L938 348L935 350L933 356L909 373L911 379L930 408L938 402L938 399L941 397L947 403L951 402L962 385L970 393L979 412L995 414L998 426L1039 431L1039 425L1032 391L1038 395L1040 393L1041 388L1044 388L1045 393L1049 393L1051 390L1057 392L1069 424L1082 451L1089 448L1094 450L1095 454L1103 453L1109 456L1112 462L1117 467L1148 480L1175 451L1198 446L1192 463L1181 475L1194 484L1177 500L1163 497L1156 506L1126 491L1107 516L1093 528L1100 535L1081 544L1076 545L1074 551L1076 579L1002 584L991 587L990 589L997 605L1003 608L1004 617L1006 619L1010 633L1009 636L1012 641L1026 650L1026 659L1023 658L1022 654L1017 660L1012 658L1013 661L1010 661L1010 665L1004 666L1001 672L997 672L995 670L958 673L955 671L933 696L905 683L883 685L885 708L881 705L878 708L874 708L871 706L863 710L862 707L854 710L851 707L848 708L843 712L840 718L837 718L838 719L836 720L836 724L839 728L823 742L823 744L827 744L825 749L816 746L815 743L815 740L819 739L822 734L817 734L812 730L793 743L757 695L755 697L753 696L718 641L720 639L657 550L597 589L594 589L589 582L568 596L566 592L519 625L515 619L506 622L510 631L501 636L490 620L448 652L423 615L407 626L401 623L396 624L382 618L334 655L321 638L329 632L301 594L318 581zM768 -4L782 -15L796 -22L807 -31L816 -15L851 -23L859 -6L848 8L835 34L820 24L816 29L813 35L814 39L811 40L810 46L813 48L815 54L801 51L784 41L778 41L771 26z"></path>
+                        </g>
+                        <g id="ng">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M752 117L768 118L805 108L812 98L816 63L842 72L843 76L847 77L850 85L855 84L859 92L865 95L868 104L871 106L872 109L875 110L876 115L880 115L880 119L886 124L890 121L891 123L879 134L873 149L871 160L866 171L877 175L889 173L898 165L929 149L934 183L918 192L919 207L923 208L937 219L948 220L945 232L897 224L897 231L893 246L905 247L909 250L919 249L930 257L926 278L913 275L909 306L913 309L912 314L900 321L897 327L897 339L883 350L870 351L863 361L839 367L829 354L825 353L816 359L806 351L806 345L803 341L795 320L795 314L789 302L787 292L783 285L783 263L774 239L760 224L757 217L798 185L787 179L781 169L781 158L765 137zM768 -4L782 -15L796 -22L807 -31L816 -15L851 -23L859 -6L848 8L835 34L820 24L816 29L813 35L814 39L811 40L810 46L813 48L815 54L801 51L784 41L778 41L771 26z"></path>
+                        </g>
+                        <g id="il">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M646 185L662 172L654 167L659 159L658 154L667 149L671 104L680 106L690 102L731 73L743 75L740 100L781 158L781 169L787 179L798 185L757 217L760 224L774 239L776 247L760 253L735 271L728 261L711 274L699 288L689 288L689 276L691 265L687 262L685 239L686 230L664 206L651 199L650 194z"></path>
+                        </g>
+                        <g id="bel">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M451 249L478 239L474 233L505 211L490 188L492 181L516 169L549 209L569 193L582 211L589 206L592 213L595 212L596 215L598 211L601 210L610 202L610 191L616 187L617 176L634 173L643 187L646 185L651 199L664 206L686 230L685 239L687 262L691 265L691 269L669 297L667 302L663 299L657 298L654 294L649 295L647 293L641 300L636 301L632 299L625 290L616 303L613 303L598 323L594 340L572 357L552 326L541 334L516 297L521 288L514 282L512 276L512 269L509 268L502 271L500 276L500 283L481 297L476 293L482 288z"></path>
+                        </g>
+                        <g id="ros">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M393 350L476 293L481 297L500 283L500 276L502 271L509 268L512 269L512 276L514 282L521 288L516 297L541 334L552 326L575 363L582 372L588 376L595 376L603 372L609 372L613 375L621 390L627 396L631 418L635 427L641 433L653 426L658 429L669 423L674 418L684 413L690 408L701 417L702 422L712 427L727 426L727 438L724 452L703 465L672 492L645 511L647 518L652 525L636 537L631 536L604 498L603 459L563 405L516 439L498 449L497 444L491 442L484 435L490 428L498 422L474 390L465 396L463 392L459 391L447 400L429 379L430 376L412 376z"></path>
+                        </g>
+                        <g id="vas">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M370 415L416 382L412 376L430 376L429 379L447 400L459 391L463 392L465 396L474 390L498 422L490 428L484 435L491 442L497 444L498 449L516 439L563 405L603 459L604 498L597 493L590 493L582 497L578 509L562 514L550 521L554 534L523 558L516 545L516 542L498 512L483 492L473 500L475 502L465 513L459 507L455 511L444 508L440 503L424 490L420 489L412 479L411 465L401 450L402 439L399 438L394 432L398 429L395 423L382 415L378 416L375 414z"></path>
+                        </g>
+                        <g id="kom">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M346 515L348 514L348 512L362 506L365 507L369 513L374 512L376 514L385 508L377 497L381 494L393 492L400 487L404 480L362 420L370 415L382 415L392 420L398 429L394 432L402 439L401 450L411 465L412 479L420 489L424 490L440 503L444 508L455 511L459 507L464 513L475 502L473 500L483 492L498 512L516 542L516 545L523 558L533 571L535 570L543 581L535 587L524 591L501 559L514 549L513 546L508 546L511 550L507 552L506 550L501 551L496 546L496 549L484 555L480 535L482 527L485 525L482 520L479 522L478 519L465 527L467 539L464 544L472 553L474 563L483 575L467 587L461 584L454 589L429 559L386 592L381 586L378 585L374 593L375 596L373 598L385 617L372 624L370 621L365 624L364 622L368 601L365 601L362 607L358 604L364 599L365 584L356 584L354 582L354 576L369 569L348 539L364 532L375 532L379 530L381 525L366 520L365 522L361 521L356 528L353 520z"></path>
+                        </g>
+                        <g id="yr">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M373 598L375 596L374 593L378 585L381 586L386 592L429 559L454 589L461 584L467 587L483 575L474 563L472 553L464 544L467 539L465 527L478 519L479 522L482 520L485 525L482 527L480 535L484 555L496 549L496 546L501 551L506 550L507 552L511 550L508 546L513 546L514 549L501 559L524 591L535 587L543 581L535 570L533 571L523 558L554 534L550 521L562 514L578 509L582 497L590 493L597 493L604 498L631 536L636 537L644 532L657 550L597 589L594 589L589 582L568 596L566 592L519 625L515 619L506 622L510 631L501 636L490 620L448 652L423 615L408 626L401 623L396 624L384 618L385 617zM294 548L312 535L295 508L320 489L328 498L353 480L348 472L382 449L404 480L400 487L393 492L381 494L377 497L385 508L376 514L374 512L369 513L365 507L362 506L348 512L348 514L346 515L353 520L356 528L360 525L361 521L365 522L366 520L381 525L379 530L375 532L364 532L348 539L369 569L354 576L354 582L356 584L365 584L364 599L358 604L362 607L365 601L368 601L364 622L367 624L370 621L372 624L379 619L334 655L321 638L329 632L301 594L318 581z"></path>
+                        </g>
+                        <g id="mar">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M644 532L652 525L647 518L645 511L672 492L703 465L724 452L724 456L729 457L748 486L757 482L770 470L821 436L833 453L833 463L830 463L830 468L827 471L827 475L832 475L832 478L825 478L822 481L816 482L813 478L804 476L803 482L801 479L790 487L786 495L781 496L781 503L775 505L775 513L779 512L787 515L788 519L786 524L782 527L779 526L777 528L778 538L781 540L781 543L778 544L775 548L775 552L779 552L780 555L774 558L768 565L764 566L761 571L764 588L759 590L760 600L757 611L761 629L767 625L770 634L769 638L754 645L761 658L757 695L755 697L718 641L720 639z"></path>
+                        </g>
+                        <g id="novot">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M701 417L705 411L711 409L725 396L773 363L795 397L806 390L813 383L818 383L821 387L822 396L829 412L859 451L846 455L844 475L837 467L835 466L830 468L830 463L833 463L833 453L821 436L770 470L757 482L748 486L729 457L724 456L727 438L727 426L712 427L702 422z"></path>
+                        </g>
+                        <g id="im">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M754 645L769 638L770 634L767 625L761 629L758 621L757 611L760 600L759 590L764 588L761 571L764 566L768 565L774 558L778 557L796 575L808 582L813 582L833 588L835 596L836 643L840 645L847 655L860 655L861 662L867 658L880 659L885 708L881 705L878 708L874 708L871 706L863 710L862 707L854 710L851 707L848 708L843 712L840 718L837 718L838 719L836 720L836 724L839 728L823 742L823 744L827 744L825 749L816 746L815 743L815 740L819 739L822 734L817 734L812 730L793 743L757 695L761 658z"></path>
+                        </g>
+                        <g id="kr">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M803 579L847 527L859 536L861 543L902 540L902 556L910 552L919 550L918 533L924 527L927 509L921 502L918 480L920 476L945 459L959 470L966 479L970 486L975 502L980 506L986 506L1003 496L1023 531L1027 534L1059 536L1054 524L1054 516L1060 502L1085 467L1094 470L1100 467L1110 470L1114 464L1117 467L1148 480L1175 451L1198 446L1192 463L1181 475L1194 484L1177 500L1163 497L1156 506L1126 491L1107 516L1093 528L1100 535L1081 544L1076 545L1074 551L1076 579L1002 584L991 587L990 589L997 605L1003 608L1004 617L1006 619L1010 633L1009 636L1012 641L1026 650L1026 659L1023 658L1022 654L1017 660L1012 658L1013 661L1010 661L1010 665L1004 666L1001 672L997 672L995 670L958 673L955 671L933 696L905 683L883 685L880 659L867 658L861 662L860 655L847 655L840 645L836 643L835 596L833 588L813 582L808 582z"></path>
+                        </g>
+                        <g id="okt">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M732 314L762 291L750 273L779 254L784 268L783 285L787 292L789 302L795 314L795 320L803 341L806 345L806 351L816 359L825 353L829 354L839 367L863 361L870 351L883 350L897 339L897 327L900 321L912 314L912 319L941 324L936 325L936 332L938 332L941 328L943 330L941 333L943 335L943 341L938 344L938 348L935 350L933 356L909 373L911 379L926 404L928 404L930 408L934 405L937 410L936 414L929 422L930 438L945 459L920 476L918 480L921 502L927 509L924 527L918 533L919 550L910 552L902 556L902 540L861 543L859 536L847 527L803 579L796 575L778 557L780 555L779 552L775 552L775 548L778 544L781 543L781 540L778 538L777 528L779 526L782 527L786 524L788 519L787 515L779 512L775 513L775 505L781 503L781 496L786 495L790 487L801 479L803 482L804 476L813 478L816 482L822 481L825 478L830 479L832 478L832 475L827 475L827 471L835 466L844 475L846 455L859 451L829 412L822 396L821 387L818 383L813 383L806 390L795 397L767 353L761 347L751 351L743 338L734 341L733 338L736 331z"></path>
+                        </g>
+                        <g id="okt2">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M885 457L892 455L895 449L898 447L903 450L908 449L911 440L917 436L929 446L928 456L943 459L912 476L904 468L886 460z"></path>  
+                        </g>
+                        <g id="bul">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M572 357L594 340L598 323L613 303L616 303L625 290L632 299L636 301L641 300L647 293L649 295L654 294L657 298L663 299L667 302L669 297L691 269L689 276L689 288L699 288L711 274L728 261L735 271L760 253L776 247L779 254L750 273L762 291L732 314L736 331L733 338L734 341L743 338L751 351L761 347L767 353L773 363L725 396L711 409L705 411L701 417L690 408L684 413L674 418L669 423L658 429L653 426L641 433L635 427L631 418L627 396L621 390L613 375L609 372L603 372L595 376L588 376L582 372z"></path>
+                        </g>
+                        <g id="nov">
+                            <path class="pointer_standart leaflet-interactive" stroke="#2040b0" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M929 427L929 422L936 414L937 410L934 405L938 402L938 399L941 397L947 403L951 402L962 385L970 393L979 412L995 414L998 426L1039 431L1039 425L1032 391L1038 395L1040 393L1040 389L1044 388L1045 393L1049 393L1051 390L1057 392L1069 424L1082 451L1089 448L1094 450L1095 454L1103 453L1109 456L1114 464L1110 470L1100 467L1094 470L1085 467L1060 502L1054 516L1054 524L1059 536L1027 534L1023 531L1003 496L986 506L980 506L975 502L970 486L966 479L959 470L945 459L930 438z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="section-1">
+                    <div class="list-win fl">
+                        <li data-link-id="bel">Белозерский сельсовет</li>
+                        <li data-link-id="bul">Булановский сельсовет</li>
+                        <li data-link-id="vas">Васильевский сельсовет</li>
+                        <li data-link-id="il">Ильинский сельсовет</li>
+                        <li data-link-id="im">Имангуловский сельсовет</li>
+                        <li data-link-id="kom">Комиссаровский сельсовет</li>
+                        <li data-link-id="kr">Краснооктябрьский сельсовет</li>
+                        <li data-link-id="mar">Марьевский сельсовет</li>
+                        <li data-link-id="ng">Нижнегумбетовский сельсовет</li>
+                        <li data-link-id="nov">Новоникитинский сельсовет</li>
+                        <li data-link-id="novot">Новотройцкий сельсовет</li>
+                        <li data-link-id="okt">Октябрьский сельсовет</li>
+                        <li data-link-id="ros">Российский сельсовет</li>
+                        <li data-link-id="yr">Уранбашский сельсовет</li>
+                    </div>
+                </div>
+                <div class="pic">
+                    <div class="be">
+                        
+                    </div>
+                    <div class="af">
+                        
+                    </div>
+                </div>
+        </div>
+  <div  class="overlay">
+  <div class="modal">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+        <div class="modal-header">
+          <button class="close-btn">x</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p class="text1"></p>
+		  <p class="text2"></p>
+		  <p class="text3"></p>
+          <table class="table">
+            <thead>
+                <tr>
+                    <th>Сумма проекта</th>
+                    <th>Областной бюджет</th>
+                    <th>Местный бюджет</th>
+                    <th>Инициативные платежи</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td1"></td>
+                    <td class="td2"></td>
+                    <td class="td3"></td>
+                    <td class="td4"></td>
+                </tr>
+            </tbody>
+        </table>
+          <div class="chart-i" style="width: 100%; height: 300px;">
+
+          </div>
+        </div>
+        
+    </div>
+
+  </div>
+</div>
+        </section>
+    </main>
+    <script src="js/amCharts/core.js"></script>
+    <script src="js/amCharts/charts.js"></script>
+    <script src="js/amCharts/animated.js"></script>
+    <script src="js/amCharts/ru_RU.js"></script>
+    <script src="js/d.js"></script>
+    <script src="js/r.js"></script>
+    <script src="js/r2.js"></script>
+    <script src="js/r3.js"></script>
+    <script src="js/d2.js"></script>
+    <script src="js/map.js"></script>
+</body>
+</html>
